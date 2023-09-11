@@ -1,0 +1,299 @@
+// 斷點825
+$breakpoints: 825px;
+// 設手機板為480px
+$phonebreakpoints: 480px;
+body{
+    height: auto;
+}
+h1{
+    &{
+        @media screen and (max-width:$phonebreakpoints) {
+            font-size: 1.2rem;
+        }
+    }
+}
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item7 {
+    font-weight: bold;
+
+    &:hover {
+        background-color: unset;
+    }
+}
+main {
+    min-height: 100vh;
+    section.system {
+        .nav-navigation {
+            li.item1 {
+                font-weight: bold;
+
+                &:hover {
+                    background-color: unset;
+                }
+            }
+        }
+    }
+
+    section.container {
+        width: calc(100% - 200px);
+        height: 100%;
+        gap: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1.5rem;
+        overflow: auto;
+
+        & {
+            @media screen and (max-width:$breakpoints) {
+                width: 100%;
+            }
+            @media screen and (max-width:$phonebreakpoints) {
+                padding: 0.5rem;
+            }
+        }
+
+        .settings {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 1.5rem;
+
+            .basic {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                .item {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin: .5rem 0rem;
+                    min-height: 40px;
+
+                    input[type="text"] {
+                        height: 50px;
+                        width: calc(100% - 310px);
+                        min-width: 200px;
+                        border: unset;
+                        background-color: #F3F3F3;
+                        text-align: center;
+                    }
+
+                    .add-rows {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 1rem;
+        
+                        input,select {
+                            font-size: 1.2rem;
+                            font-weight: bold;
+                        }
+        
+                        
+                        
+                        select {
+                            color: black;
+                            appearance: none;
+                            height: 50px;
+                            min-width: 200px;
+                            width: 100%;
+                            padding: 0px 1rem;
+                            text-align: center;
+                            position: relative;
+                            border: unset;
+                            background-color: #F3F3F3;
+                            background-image: url("../img/arrow.png");
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center right;
+                        }
+        
+                        .add-btn, input[type="submit"]{
+                            width: 200px;
+                            min-width: 200px;
+                            border: unset;
+                            height: 50px;
+                            background-color: #AEAEAE;
+                            color: white;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            transition: background-color .3s linear;
+                            padding: .5rem 1rem;
+                            cursor: pointer;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+        
+                            &:hover {
+                                background-color: #9E9E9E;
+                            }
+        
+                            &:active {
+                                background-color: #DBDBDB;
+                            }
+                        }
+                    }
+
+                    .add-row2{
+                        select.select-up-down{
+                            width: 80%;
+                            min-width: 200px;
+                        }  
+                    }
+
+
+                    .item-title1 {
+                        height: 100%;
+                        font-size: 1.5rem;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        font-weight: bold;
+                        &{
+                            @media screen and (max-width:$phonebreakpoints) {
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+                    .item-title {
+                        height: 100%;
+                        font-size: 1.2rem;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        font-weight: bold;
+                        &{
+                            @media screen and (max-width:$phonebreakpoints) {
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+
+                    .item-subitem {
+                        font-size: 1.2rem;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        height: 100%;
+                        flex-wrap: wrap;
+                        white-space: normal;
+                        gap: .3rem;
+                        &{
+                            @media screen and (max-width:$phonebreakpoints) {
+                                font-size: 1.2rem;
+                            }
+                        }
+
+                        input[type="number"] {
+                            width: 100px;
+                            margin: 0px 5px;
+                            border: unset;
+                            background-color: #EAEAEA;
+                            height: 100%;
+                            border-radius: 5px;
+                            font-size: 1.2rem;
+                            text-align: center;
+                            padding: 5px;
+                        }
+
+                        .subitem {
+                            height: 100%;
+                            font-size: 1.2rem;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            white-space: nowrap;
+                            &{
+                                @media screen and (max-width:$phonebreakpoints) {
+                                    font-size: 1.2rem;
+                                }
+                            }
+
+                            a {
+                                font-size: 1.5rem;
+                                margin: 0rem .5rem;
+                                &{
+                                    @media screen and (max-width:$phonebreakpoints) {
+                                        font-size: 1.2rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .ticker {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap: .5rem;
+                width: 100%;
+
+                h1 {
+                    white-space: normal;
+                }
+                .text-group {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    gap: .3rem;
+                    .text{
+                        background-color: #EAEAEA;
+                        border: unset;
+                        height: 50px;
+                        width: 100%;
+                        max-width: 700px;
+                        min-width: 280px;
+                        font-size: 1.5rem;
+                        text-align: start;
+                        &{
+                            @media screen and (max-width:$phonebreakpoints) {
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .save {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+
+            button{
+                width: 180px;
+                border: unset;
+                height: 50px;
+                background-color: #AEAEAE;
+                color: white;
+                font-weight: bold;
+                font-size: 1.5rem;
+                transition: background-color .3s linear;
+                padding: .5rem 1rem;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    background-color: #9E9E9E;
+                }
+
+                &:active {
+                    background-color: #DBDBDB;
+                }
+            }
+        }
+    }
+}

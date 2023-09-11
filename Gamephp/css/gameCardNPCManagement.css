@@ -1,0 +1,45 @@
+body {
+  height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+header nav .nav-menu .nav-user .nav-user-navigation .ul-navigation li.item4 {
+  font-weight: bold;
+}
+header nav .nav-menu .nav-user .nav-user-navigation .ul-navigation li.item4:hover {
+  background-color: unset;
+}
+
+main {
+  min-height: 100vh;
+}
+main section.system .nav-navigation li.item1 {
+  font-weight: bold;
+}
+main section.system .nav-navigation li.item1:hover {
+  background-color: unset;
+}
+main section.container {
+  width: calc(100% - 200px);
+  height: 100%;
+  gap: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
+@media screen and (max-width: 825px) {
+  main section.container {
+    width: 100%;
+  }
+}
+main section.container h1 {
+  font-size: 2rem;
+}/*# sourceMappingURL=gameCardNPCManagement.css.map */

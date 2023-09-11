@@ -1,0 +1,60 @@
+// 斷點825
+$breakpoints: 825px;
+// 設手機板為480px
+$phonebreakpoints: 480px;
+
+body {
+    height: auto;
+}
+
+h1 {
+    & {
+        @media screen and (max-width:$phonebreakpoints) {
+            font-size: 1.2rem;
+        }
+    }
+}
+header nav .nav-menu .nav-user .nav-user-navigation .ul-navigation li.item4{
+    font-weight: bold;
+    &:hover{
+        background-color: unset;
+    }
+}
+main {
+    min-height: 100vh;
+
+    section.system {
+        .nav-navigation {
+            li.item1 {
+                font-weight: bold;
+
+                &:hover {
+                    background-color: unset;
+                }
+            }
+        }
+    }
+
+    section.container {
+        width: calc(100% - 200px);
+        height: 100%;
+        gap: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        gap: 1.5rem;
+
+        & {
+            @media screen and (max-width:$breakpoints) {
+                width: 100%;
+            }
+        }
+        h1{
+            font-size: 2rem;
+        }
+
+
+    }
+}

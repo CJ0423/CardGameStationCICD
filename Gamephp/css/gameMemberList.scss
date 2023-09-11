@@ -1,0 +1,233 @@
+// 斷點825
+$breakpoints: 825px;
+// 設手機板為480px
+$phonebreakpoints: 480px;
+
+body {
+    height: auto;
+}
+
+h1 {
+    & {
+        @media screen and (max-width:$phonebreakpoints) {
+            font-size: 1.2rem;
+        }
+    }
+}
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item3 {
+    font-weight: bold;
+    &:hover{
+        background-color: unset;
+    }
+}
+main {
+    min-height: 100vh;
+
+    section.system {
+        .nav-navigation {
+            li.item1 {
+                font-weight: bold;
+
+                &:hover {
+                    background-color: unset;
+                }
+            }
+        }
+    }
+
+    section.container {
+        overflow: auto;
+        width: calc(100% - 200px);
+        height: 100%;
+        gap: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        gap: 1.5rem;
+
+        & {
+            @media screen and (max-width:$breakpoints) {
+                width: 100%;
+            }
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .add-group {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+
+            .add-rows {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 1rem;
+
+                input,
+                select {
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                }
+
+                input[type="text"] {
+                    height: 50px;
+                    width: 40%;
+                    min-width: 260px;
+                    border: unset;
+                    background-color: #F3F3F3;
+                    text-align: center;
+                }
+
+                select {
+                    color: black;
+                    appearance: none;
+                    height: 50px;
+                    min-width: 260px;
+                    width: 30%;
+                    padding: 0px 1rem;
+                    text-align: center;
+                    position: relative;
+                    border: unset;
+                    background-color: #F3F3F3;
+                    background-image: url("../img/arrow.png");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center right;
+                }
+
+                .add-btn,
+                input[type="submit"] {
+                    width: 200px;
+                    min-width: 130px;
+                    border: unset;
+                    height: 50px;
+                    background-color: #AEAEAE;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                    transition: background-color .3s linear;
+                    padding: .5rem 1rem;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    &:hover {
+                        background-color: #9E9E9E;
+                    }
+
+                    &:active {
+                        background-color: #DBDBDB;
+                    }
+                }
+            }
+
+            .add-row2 {
+                select {
+                    width: 20%;
+                    min-width: 180px;
+                }
+            }
+        }
+
+        .table-group {
+            width: 100%;
+
+            table {
+                width: 100%;
+                border: 2px solid #9D9D9D;
+                border-collapse: collapse;
+
+                th {
+                    border: 2px solid #9D9D9D;
+                    padding: 0rem .5rem;
+                    height: 50px;
+                    font-size: 1.5rem;
+                    background-color: #DADADA;
+
+                    & {
+                        @media screen and (max-width:684px) {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+
+                td {
+                    border: 2px solid #9D9D9D;
+                    padding: 0rem .5rem;
+                    height: 120px;
+                    font-size: 1.2rem;
+                    width: 6%;
+                    text-align: center;
+
+                    & {
+                        @media screen and (max-width:684px) {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+                .row1 {
+                    font-weight: bold;
+                }
+                .row1,.row2,.row3,.row4,.row5,.row9,.row10{
+                    width: 10%;
+                }
+                .row5,.row6,.row7,.row8{
+                    width: 5%;
+                }
+                .row11 {
+                    width: 15%;
+                }
+
+                .row9,
+                .row10 {
+                    white-space: normal;
+                }
+
+                .edit-group {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: .5rem;
+
+                    .edit-btn,
+                    .del-btn {
+                        width: 80px;
+                        border: unset;
+                        height: 50px;
+                        background-color: #AEAEAE;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        transition: background-color .3s linear;
+                        padding: .5rem 1rem;
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        &:hover {
+                            background-color: #9E9E9E;
+                        }
+
+                        &:active {
+                            background-color: #DBDBDB;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+}

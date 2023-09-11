@@ -1,0 +1,90 @@
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item1 {
+  font-weight: bold;
+}
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item1:hover {
+  background-color: unset;
+}
+
+body {
+  height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+main {
+  min-height: 100vh;
+}
+main section.system .nav-navigation li.item4 {
+  font-weight: bold;
+}
+main section.system .nav-navigation li.item4:hover {
+  background-color: unset;
+}
+main section.container {
+  overflow: auto;
+  width: calc(100% - 200px);
+  height: 100%;
+  gap: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
+@media screen and (max-width: 825px) {
+  main section.container {
+    width: 100%;
+  }
+}
+main section.container table {
+  width: 100%;
+  border: 2px solid #9D9D9D;
+  border-collapse: collapse;
+}
+main section.container table th {
+  border: 2px solid #9D9D9D;
+  padding: 0rem 0.5rem;
+  height: 50px;
+  font-size: 1.5rem;
+  background-color: #DADADA;
+}
+@media screen and (max-width: 684px) {
+  main section.container table th {
+    font-size: 1.2rem;
+  }
+}
+main section.container table td {
+  border: 2px solid #9D9D9D;
+  padding: 0rem 0.5rem;
+  height: 50px;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 684px) {
+  main section.container table td {
+    font-size: 1rem;
+  }
+}
+main section.container table .row1 {
+  width: 15%;
+}
+main section.container table .row2 {
+  width: 10%;
+  text-align: center;
+}
+main section.container table .row3 {
+  width: 10%;
+  text-align: center;
+}
+main section.container table .row4 {
+  width: 20%;
+  white-space: normal;
+}
+main section.container table .row5 {
+  width: 45%;
+  white-space: normal;
+}/*# sourceMappingURL=gameManagementRecords.css.map */

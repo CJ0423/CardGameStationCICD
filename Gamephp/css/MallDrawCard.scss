@@ -1,0 +1,166 @@
+// 斷點825
+$breakpoints: 825px;
+// 設手機板為480px
+$phonebreakpoints: 480px;
+
+body {
+    height: auto;
+}
+
+h1 {
+    & {
+        @media screen and (max-width:$phonebreakpoints) {
+            font-size: 1.2rem;
+        }
+    }
+}
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item4 {
+    font-weight: bold;
+
+    &:hover {
+        background-color: unset;
+    }
+}
+main {
+    min-height: 100vh;
+
+    section.system {
+        .nav-navigation {
+            li.item1 {
+                font-weight: bold;
+
+                &:hover {
+                    background-color: unset;
+                }
+            }
+        }
+    }
+
+    section.container {
+        width: calc(100% - 200px);
+        height: 100%;
+        gap: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        gap: 1.5rem;
+
+        & {
+            @media screen and (max-width:$breakpoints) {
+                width: 100%;
+                overflow: auto;
+            }
+        }
+        h1{
+            font-size: 2rem;
+        }
+        input.quantity {
+            max-width: 100px;
+            border: none;
+            background-color: #dedede;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        .table-group {
+            width: 100%;
+
+            table {
+                width: 100%;
+                border: 2px solid #9D9D9D;
+                border-collapse: collapse;
+
+                th {
+                    border: 2px solid #9D9D9D;
+                    padding: 0rem .5rem;
+                    height: 50px;
+                    font-size: 1.5rem;
+                    background-color: #DADADA;
+
+                    & {
+                        @media screen and (max-width:684px) {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+
+                td {
+                    border: 2px solid #9D9D9D;
+                    padding: 0rem .5rem;
+                    height: 120px;
+                    font-size: 1.2rem;
+                    width: 12%;
+                    text-align: center;
+
+                    & {
+                        @media screen and (max-width:684px) {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                .row1{
+                    font-weight: bold;
+                }
+                .row7 {
+                    width: 16%;
+                }
+
+                .edit-group {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: .5rem;
+                    .edit-btn,.del-btn {
+                        width: 80px;
+                        border: unset;
+                        height: 50px;
+                        background-color: #AEAEAE;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        transition: background-color .3s linear;
+                        padding: .5rem 1rem;
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        &:hover {
+                            background-color: #9E9E9E;
+                        }
+
+                        &:active {
+                            background-color: #DBDBDB;
+                        }
+                    }
+                }
+                .permission-group{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    h1{
+                        font-size: 1.3rem;
+                        & {
+                            @media screen and (max-width:684px) {
+                                font-size: 1.1rem;
+                            }
+                        }
+                    }
+                    .options{
+                        label{
+                            font-size: 1.2rem;
+                            & {
+                                @media screen and (max-width:684px) {
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

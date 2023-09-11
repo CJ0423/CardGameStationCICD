@@ -1,0 +1,353 @@
+// 斷點825
+$breakpoints: 825px;
+// 設手機板為480px
+$phonebreakpoints: 480px;
+
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item1 {
+    font-weight: bold;
+
+    &:hover {
+        background-color: unset;
+    }
+}
+
+body {
+    height: auto;
+}
+
+h1 {
+    & {
+        @media screen and (max-width:$phonebreakpoints) {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+main {
+    min-height: 100vh;
+
+    section.system {
+        .nav-navigation {
+            li.item3 {
+                font-weight: bold;
+
+                &:hover {
+                    background-color: unset;
+                }
+            }
+        }
+    }
+
+    section.container {
+        width: calc(100% - 200px);
+        height: 100%;
+        gap: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        gap: 1.5rem;
+
+        & {
+            @media screen and (max-width:$breakpoints) {
+                width: 100%;
+            }
+
+            @media screen and (max-width:$phonebreakpoints) {
+                padding: 0.5rem;
+            }
+
+            @media screen and (max-width:510px) {
+                gap: 5rem;
+            }
+        }
+
+        .settings {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            .item {
+                width: 100%;
+                max-width: 870px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 1rem;
+
+                & {
+                    @media screen and (max-width:1165px) {
+                        max-width: 700px;
+                    }
+                }
+
+                & {
+                    @media screen and (max-width:660px) {
+                        margin: .3rem;
+                    }
+                }
+
+                .item-title {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    color: #4A4A4A;
+                    background-color: #EFEFEF;
+                    margin-right: 1rem;
+
+                    & {
+                        @media screen and (max-width:920px) {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+
+                .item-subitem {
+                    max-width: 700px;
+                    min-width: 200px;
+                    width: 100%;
+                    font-size: 1.5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+
+                    & {
+                        @media screen and (max-width:1165px) {
+                            max-width: 600px;
+                        }
+                    }
+
+
+                    input[type="text"] {
+                        border: unset;
+                        background-color: #EAEAEA;
+                        width: 100%;
+                        height: 50px;
+
+                        & {
+                            @media screen and (max-width:990px) {
+                                width: 90%;
+                            }
+                        }
+                    }
+
+                    .subitem-group {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        gap: 1rem;
+                    }
+                }
+
+                &.item3 {
+                    .item-subitem {
+                        justify-content: flex-start;
+                        align-items: flex-start;
+
+                        .subitem-img {
+                            img {
+                                width: 160px;
+                                object-fit: contain;
+
+                                & {
+                                    @media screen and (max-width:660px) {
+                                        width: 120px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .subitem-group {
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            gap: 1.5rem;
+
+                            & {
+                                @media screen and (max-width:510px) {
+                                    position: relative;
+
+                                    .text {
+                                        position: absolute;
+                                        bottom: -30%;
+                                        left: -70%;
+
+                                        & {
+                                            @media screen and (max-width:420px) {
+                                                left: -10%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .items {
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-start;
+
+                                & {
+                                    @media screen and (max-width:660px) {
+                                        flex-direction: column;
+                                    }
+                                }
+
+                                    input {
+                                        width: 180px;
+                                        & {
+                                            @media screen and (max-width:660px) {
+                                                margin-right: unset;
+                                                margin-bottom: 1rem;
+                                            }
+                                        &::file-selector-button{
+                                        border: unset;
+                                        width: 140px;
+                                        height: 50px;
+                                        background-color: #8A8A8A;
+                                        margin-right: 1rem;
+                                        font-size: 1.5rem;
+                                        font-weight: bold;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        color: white;
+                                        transition: background-color .3s linear;
+                                        cursor: pointer;
+    
+                                        &:hover {
+                                            background-color: #9E9E9E;
+                                        }
+    
+                                        &:active {
+                                            background-color: #DBDBDB;
+                                        }
+                                        }
+                                    }
+
+                                    & {
+                                        @media screen and (max-width:930px) {
+                                            width: 120px;
+                                            margin-right: 1rem;
+                                            &::file-selector-button{
+                                                width: 120px;
+                                            }
+                                        }
+                                        @media screen and (max-width:$breakpoints) {
+                                            width: 160px;
+                                            margin-right: 0rem;
+                                            &::file-selector-button{
+                                                width: 140px;
+                                            }
+                                        }
+                                        @media screen and (max-width:660px) {
+                                            width: 100%;
+                                            margin-right: 0rem;
+                                            &::file-selector-button{
+                                                width: 60%;
+                                                min-width: 110px;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                button {
+                                    width: 140px;
+                                    height: 50px;
+                                    background-color: #8A8A8A;
+                                    font-size: 1.5rem;
+                                    font-weight: bold;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    color: white;
+                                    border: unset;
+                                    transition: background-color .3s linear;
+                                    cursor: pointer;
+
+                                    &:hover {
+                                        background-color: #9E9E9E;
+                                    }
+
+                                    &:active {
+                                        background-color: #DBDBDB;
+                                    }
+
+                                    & {
+                                        @media screen and (max-width:930px) {
+                                            width: 120px;
+                                        }
+                                        @media screen and (max-width:$breakpoints) {
+                                            width: 140px;
+                                        }
+                                        @media screen and (max-width:660px) {
+                                            width: 60%;
+                                            min-width: 110px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        & {
+                            @media screen and (max-width:420px) {
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: flex-start;
+
+                                .subitem-group {
+                                    align-items: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .save {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 11.5rem;
+
+            & {
+                @media screen and (max-width:510px) {
+                    align-self: center;
+                    margin-left: unset;
+                }
+            }
+
+            button {
+                width: 220px;
+                border: unset;
+                height: 50px;
+                background-color: #AEAEAE;
+                color: white;
+                font-weight: bold;
+                font-size: 1.5rem;
+                transition: background-color .3s linear;
+                padding: .5rem 1rem;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover {
+                    background-color: #9E9E9E;
+                }
+
+                &:active {
+                    background-color: #DBDBDB;
+                }
+            }
+        }
+    }
+}

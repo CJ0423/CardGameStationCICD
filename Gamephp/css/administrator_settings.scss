@@ -1,0 +1,111 @@
+// 斷點825
+$breakpoints: 825px;
+// 設手機板為463px
+$phonebreakpoints: 480px;
+
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item2 {
+    font-weight: bold;
+
+    &:hover {
+        background-color: unset;
+    }
+}
+
+main {
+    section.system {
+        .nav-navigation {
+            li.item2 {
+                font-weight: bold;
+
+                &:hover {
+                    background-color: unset;
+                }
+            }
+        }
+    }
+
+    section.container {
+        width: calc(100% - 200px);
+        height: calc(100vh - 60px);
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        & {
+            @media screen and (max-width:$breakpoints) {
+                width: 100%;
+            }
+
+            @media screen and (max-width:$phonebreakpoints) {
+                padding: 0.5rem;
+            }
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        input.input {
+            border: none;
+            background-color: #dedede;
+            font-size: 1.2rem;
+        }
+
+        input.submit {
+            width: 100%;
+            border: none;
+            background: #aeaeae;
+            color: aliceblue;
+            padding: 5px;
+            font-size: 1.5rem;
+            transition: background-color .3s linear;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #9E9E9E;
+            }
+
+            &:active {
+                background-color: #DBDBDB;
+            }
+
+        }
+
+
+        .main-item {
+            width: 15%;
+            height: 15%;
+            min-width: 200px;
+            min-height: 100px;
+            flex-shrink: 0;
+            background-color: #DDDDDD;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color .3s linear;
+
+            &:hover {
+                background-color: #BBBBBB;
+            }
+
+            .text {
+                text-align: center;
+
+                &.horizontal-item {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                }
+
+                span {
+                    color: royalblue;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

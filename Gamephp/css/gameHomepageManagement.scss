@@ -1,0 +1,204 @@
+// 斷點825
+$breakpoints: 825px;
+// 設手機板為480px
+$phonebreakpoints: 480px;
+
+//新增斷點1160(僅用於本版)
+$breakpoints1160: 1160px;
+
+body {
+    height: auto;
+}
+
+h1 {
+    & {
+        @media screen and (max-width:$phonebreakpoints) {
+            font-size: 1.2rem;
+        }
+    }
+}
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item6 {
+    font-weight: bold;
+
+    &:hover {
+        background-color: unset;
+    }
+}
+main {
+    min-height: 100vh;
+
+    section.system {
+        .nav-navigation {
+            li.item1 {
+                font-weight: bold;
+
+                &:hover {
+                    background-color: unset;
+                }
+            }
+        }
+    }
+
+    section.container {
+        width: calc(100% - 200px);
+        height: 100%;
+        gap: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        gap: 1.5rem;
+
+        & {
+            @media screen and (max-width:$breakpoints) {
+                width: 100%;
+            }
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .main-group {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1rem;
+            overflow: auto;
+
+            .content-group {
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 2rem;
+
+                .item {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    gap: 1rem;
+                    @media screen and (max-width:$breakpoints1160) {
+                        flex-direction: column;
+                    }
+
+                    h1 {
+                        font-size: 1.5rem;
+                    }
+
+                    .subitem-group {
+                        flex-grow: 1;
+                        .subitems {
+                            flex-grow: 1;
+                            display: flex;
+                            gap: 1rem;
+                            .label-group {
+                                max-width: 200px;
+                                min-width: 120px;
+                                flex-grow: 0;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+
+                                label {
+                                    width: 100%;
+                                    height: 50px;
+                                    background-color: #E6E6E6;
+                                    font-size: 1.5rem;
+                                    font-weight: bold;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    color: #323232;
+                                    border: unset;
+                                    transition: background-color .3s linear;
+                                    cursor: pointer;
+
+                                    &:hover {
+                                        background-color: #9E9E9E;
+                                    }
+
+                                    &:active {
+                                        background-color: #DBDBDB;
+                                    }
+                                }
+
+                                input[type="file"] {
+                                    width: 100%;
+                                    margin: auto;
+                                    &::file-selector-button {
+                                        display: none;
+                                    }
+                                }
+                            }
+
+                            input[type="text"] {
+                                flex-grow: 2;
+                                height: 50px;
+                                font-size: 1.2rem;
+                                background-color: #E6E6E6;
+                                border: unset;
+                                padding: 0rem .5rem;
+
+                                &::placeholder {
+                                    color: #323232;
+                                }
+                            }
+                            &.subitem6{
+                                .label-group{
+                                    max-width: unset;
+                                    flex-grow: 1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .img-group{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: yellow;
+                flex-grow: 0;
+                img{
+                    width: 100%;
+                    min-width: 250px;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .btn-group {
+            align-self: center;
+            .sure-btn {
+                width: 200px;
+                border: unset;
+                height: 50px;
+                background-color: #AEAEAE;
+                color: white;
+                font-weight: bold;
+                font-size: 1.5rem;
+                transition: background-color .3s linear;
+                padding: .5rem 1rem;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover {
+                    background-color: #9E9E9E;
+                }
+
+                &:active {
+                    background-color: #DBDBDB;
+                }
+            }
+        }
+
+    }
+}

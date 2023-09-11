@@ -1,0 +1,200 @@
+body {
+  height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item5 {
+  font-weight: bold;
+}
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item5:hover {
+  background-color: unset;
+}
+
+main {
+  min-height: 100vh;
+}
+main section.system .nav-navigation li.item1 {
+  font-weight: bold;
+}
+main section.system .nav-navigation li.item1:hover {
+  background-color: unset;
+}
+main section.container {
+  overflow: auto;
+  width: calc(100% - 200px);
+  height: 100%;
+  gap: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
+@media screen and (max-width: 825px) {
+  main section.container {
+    width: 100%;
+  }
+}
+main section.container h1 {
+  font-size: 2rem;
+}
+main section.container .add-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+main section.container .add-group .add-rows {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+main section.container .add-group .add-rows input, main section.container .add-group .add-rows select {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+main section.container .add-group .add-rows input[type=text] {
+  height: 50px;
+  width: 40%;
+  min-width: 260px;
+  border: unset;
+  background-color: #F3F3F3;
+  text-align: center;
+}
+main section.container .add-group .add-rows select {
+  color: black;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  height: 50px;
+  min-width: 260px;
+  width: 30%;
+  padding: 0px 1rem;
+  text-align: center;
+  position: relative;
+  border: unset;
+  background-color: #F3F3F3;
+  background-image: url("../img/arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+main section.container .add-group .add-rows .add-btn, main section.container .add-group .add-rows input[type=submit] {
+  width: 200px;
+  min-width: 130px;
+  border: unset;
+  height: 50px;
+  background-color: #AEAEAE;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: background-color 0.3s linear;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.container .add-group .add-rows .add-btn:hover, main section.container .add-group .add-rows input[type=submit]:hover {
+  background-color: #9E9E9E;
+}
+main section.container .add-group .add-rows .add-btn:active, main section.container .add-group .add-rows input[type=submit]:active {
+  background-color: #DBDBDB;
+}
+main section.container .add-group .add-row2 select {
+  width: 20%;
+  min-width: 180px;
+}
+main section.container .table-group {
+  width: 100%;
+}
+main section.container .table-group table {
+  width: 100%;
+  border: 2px solid #9D9D9D;
+  border-collapse: collapse;
+}
+main section.container .table-group table th {
+  border: 2px solid #9D9D9D;
+  padding: 0rem 0.5rem;
+  height: 50px;
+  font-size: 1.5rem;
+  background-color: #DADADA;
+}
+@media screen and (max-width: 684px) {
+  main section.container .table-group table th {
+    font-size: 1.2rem;
+  }
+}
+main section.container .table-group table td {
+  border: 2px solid #9D9D9D;
+  padding: 0rem 0.5rem;
+  height: 120px;
+  font-size: 1.2rem;
+  width: 6%;
+  text-align: center;
+}
+@media screen and (max-width: 684px) {
+  main section.container .table-group table td {
+    font-size: 1rem;
+  }
+}
+main section.container .table-group table .row1 {
+  font-weight: bold;
+}
+main section.container .table-group table .row5 {
+  width: 10%;
+}
+main section.container .table-group table td.row6 {
+  text-align: left;
+}
+main section.container .table-group table .row12 {
+  width: 12%;
+}
+main section.container .table-group table .row7,
+main section.container .table-group table .row8,
+main section.container .table-group table .row9 {
+  width: 5%;
+}
+main section.container .table-group table .row10 {
+  white-space: normal;
+}
+main section.container .table-group table .edit-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+main section.container .table-group table .edit-group .edit-btn,
+main section.container .table-group table .edit-group .del-btn {
+  width: 80px;
+  border: unset;
+  height: 50px;
+  background-color: #AEAEAE;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: background-color 0.3s linear;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.container .table-group table .edit-group .edit-btn:hover,
+main section.container .table-group table .edit-group .del-btn:hover {
+  background-color: #9E9E9E;
+}
+main section.container .table-group table .edit-group .edit-btn:active,
+main section.container .table-group table .edit-group .del-btn:active {
+  background-color: #DBDBDB;
+}/*# sourceMappingURL=gameCardManagement.css.map */

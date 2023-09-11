@@ -1,0 +1,13 @@
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item1 {
+  font-weight: bold;
+}
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item1:hover {
+  background-color: unset;
+}
+
+main section.system .nav-navigation li.item1 {
+  font-weight: bold;
+}
+main section.system .nav-navigation li.item1:hover {
+  background-color: unset;
+}/*# sourceMappingURL=index.css.map */

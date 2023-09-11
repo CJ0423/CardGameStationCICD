@@ -1,0 +1,106 @@
+// 斷點825
+$breakpoints: 825px;
+// 設手機板為480px
+$phonebreakpoints: 480px;
+
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item1 {
+    font-weight: bold;
+
+    &:hover {
+        background-color: unset;
+    }
+}
+
+body {
+    height: auto;
+}
+
+h1 {
+    & {
+        @media screen and (max-width:$phonebreakpoints) {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+main {
+    min-height: 100vh;
+
+    section.system {
+        .nav-navigation {
+            li.item4 {
+                font-weight: bold;
+
+                &:hover {
+                    background-color: unset;
+                }
+            }
+        }
+    }
+
+    section.container {
+        overflow: auto;
+        width: calc(100% - 200px);
+        height: 100%;
+        gap: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        gap: 1.5rem;
+        &{
+            @media screen and (max-width:$breakpoints) {
+                width: 100%;
+            }
+        }
+        table{
+            width: 100%;
+            border: 2px solid #9D9D9D;
+            border-collapse: collapse;
+            th{
+                border: 2px solid #9D9D9D;
+                padding: 0rem .5rem;
+                height: 50px;
+                font-size: 1.5rem;
+                background-color: #DADADA;
+                &{
+                    @media screen and (max-width:684px) {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+            td{
+                border: 2px solid #9D9D9D;
+                padding: 0rem .5rem;
+                height: 50px;
+                font-size: 1.2rem;
+                &{
+                    @media screen and (max-width:684px) {
+                        font-size: 1rem;
+                    }
+                }
+            }
+            .row1{
+                width: 15%;
+            }
+            .row2{
+                width: 10%;
+                text-align: center;
+            }
+            .row3{
+                width: 10%;
+                text-align: center;
+            }
+            .row4{
+                width: 20%;
+                white-space: normal;
+            }
+            .row5{
+                width: 45%;
+                white-space: normal;
+            }
+        }
+
+    }
+}
