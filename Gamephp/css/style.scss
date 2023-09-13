@@ -63,13 +63,11 @@ header {
         position: relative;
         color: #FFF;
         padding-right: 1.7rem;
-
-        @media screen and (max-width: 1140px) {
-            & {
+        @media screen and (max-width: 1140px){
+            &{
                 padding-right: 0.7rem;
             }
         }
-
         @media screen and (max-width:$breakpoints) {
             & {
                 justify-content: space-between;
@@ -148,10 +146,9 @@ header {
                             }
                         }
 
-                        &.logout {
+                        &.logout{
                             padding: unset;
-
-                            a {
+                            a{
                                 display: block;
                                 width: 100%;
                                 height: 100%;
@@ -243,8 +240,8 @@ header {
                             text-align: center;
                             padding: unset;
                         }
-
-                        a {
+                        
+                        a{
                             display: block;
                             width: 100%;
                             height: 100%;
@@ -363,7 +360,7 @@ main {
                             padding: 0rem .5rem;
                         }
                     }
-
+                    
                     a {
                         font-size: 1.2rem;
 
@@ -400,7 +397,7 @@ main {
     section.container {
         display: flex;
         justify-content: flex-start;
-        align-items: stretch;
+        align-items: center;
         align-content: flex-start;
         flex-wrap: wrap;
         gap: 1rem;
@@ -426,53 +423,43 @@ main {
                 padding: 0.5rem 1.5rem;
             }
         }
-        &.index-main-container a{
+
+        .main-item {
+            width: 15%;
+            height: 15%;
             min-width: 200px;
             min-height: 100px;
-        }
-        a {
+            flex-shrink: 0;
+            background-color: #DDDDDD;
+            padding: 1rem;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 15%;
-            height: auto;
-            padding: 1rem;
-            background-color: #DDDDDD;
-            
-            .main-item {
-                width: 100%;
-                height: 100%;
-                flex-shrink: 0;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                cursor: pointer;
-                transition: background-color .3s linear;
-                
+            cursor: pointer;
+            transition: background-color .3s linear;
 
-                &:hover {
-                    background-color: #9E9E9E;
+            &:hover {
+                background-color: #9E9E9E;
+            }
+
+            &:active {
+                background-color: #DBDBDB;
+            }
+
+            .text {
+                text-align: center;
+
+                &.horizontal-item {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
                 }
 
-                &:active {
-                    background-color: #DBDBDB;
-                }
-
-                .text {
-                    text-align: center;
-
-                    &.horizontal-item {
-                        width: 100%;
-                        display: flex;
-                        justify-content: space-evenly;
-                        align-items: center;
-                    }
-
-                    span {
-                        color: royalblue;
-                        font-weight: bold;
-                    }
+                span {
+                    color: royalblue;
+                    font-weight: bold;
                 }
             }
         }

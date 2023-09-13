@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>首頁管理</title>
+    <title>知識村/編輯題庫</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/gameHomepageManagement.css">
+    <link rel="stylesheet" href="./css/gameVIPKnowledgeVillageEditorRepository.css">
 </head>
 
 <body>
@@ -48,85 +48,86 @@
         <section class="system">
             <div class="nav-navigation">
                 <ul>
-                    <!-- <li class="item1"><a href="#">權限設定</a></li>
-                    <li class="item2"><a href="#">管理員列表</a></li> -->
-                    <!-- <li class="item3"><a href="#">系統設置</a></li>
-                    <li class="item4"><a href="#">管理紀錄</a></li> -->
+                    <li class="item1"><a href="./AccountManagement.php">科目管理</a></li>
+                    <li class="item2"><a href="./gameQuestionBankManagement.php">題庫編輯</a></li>
+                    <li class="item3"><a href="./VIPAccountManagement.php">VIP科目管理</a></li>
+                    <li class="item4"><a href="./gameVIPQuestionBankManagement.php">VIP題庫編輯</a></li>
                 </ul>
             </div>
         </section>
         <section class="container">
-            <h1>首頁管理</h1>
+            <h1>VIP題目編號：<span>A001</span></h1>
             <div class="main-group">
                 <div class="content-group">
                     <div class="item role-group">
-                        <h1>角色圖</h1>
                         <div class="subitem-group">
                             <div class="subitems subitem1">
-                                <div class="label-group">
-                                    <label for="subitem1-img">上傳圖檔</label>
-                                    <input type="file" name="subitem1-img" id="subitem1-img">
-                                </div>
+                                <h1>科目名稱：</h1>
+                                <select name="select-search" id="select-search" class="select-search">
+                                    <option value="">科目</option>
+                                    <option value="國文">國文</option>
+                                    <option value="英文">英文</option>
+                                    <option value="VIP英文">VIP英文</option>
+                                </select>
+                            </div>
+                            <div class="subitems subitem1">
+                                <h1>類別：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+                                <select name="select-search" id="select-search" class="select-search">
+                                    <option value="">年級別</option>
+                                    <option value="國小一年級">國小一年級</option>
+                                    <option value="國小二年級">國小二年級</option>
+                                    <option value="國小三年級">國小三年級</option>
+                                    <option value="國小四年級">國小四年級</option>
+                                    <option value="國小五年級">國小五年級</option>
+                                    <option value="國小六年級">國小六年級</option>
+                                </select>
+                                <button type="button" class="sure-btn">編輯類別</button>
+                            </div>
+                            <div class="subitems subitem1">
+                                <h1>題目：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                                 <input type="text" placeholder="請輸入文字">
-                                <div class="label-group"><label for="subitem1-audio">上傳音檔</label>
+                                <!-- <div class="label-group"><label for="subitem1-audio">上傳音檔</label>
                                     <input type="file" name="subitem1-audio" id="subitem1-audio">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="subitems subitem2">
-                                <div class="label-group">
-                                    <label for="subitem2-img">上傳圖檔</label>
-                                    <input type="file" name="subitem2-img" id="subitem2-img">
-                                </div>
+                                <h1>選項1：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                                 <input type="text" placeholder="請輸入文字">
                                 <div class="label-group"><label for="subitem2-audio">上傳音檔</label>
                                     <input type="file" name="subitem2-audio" id="subitem2-audio">
                                 </div>
                             </div>
                             <div class="subitems subitem3">
-                                <div class="label-group">
-                                    <label for="subitem3-img">上傳圖檔</label>
-                                    <input type="file" name="subitem3-img" id="subitem3-img">
-                                </div>
+                                <h1>選項2：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                                 <input type="text" placeholder="請輸入文字">
                                 <div class="label-group"><label for="subitem3-audio">上傳音檔</label>
                                     <input type="file" name="subitem3-audio" id="subitem3-audio">
                                 </div>
                             </div>
                             <div class="subitems subitem4">
-                                <div class="label-group">
-                                    <label for="subitem4-img">上傳圖檔</label>
-                                    <input type="file" name="subitem4-img" id="subitem4-img">
-                                </div>
+                                <h1>選項3：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                                 <input type="text" placeholder="請輸入文字">
                                 <div class="label-group"><label for="subitem4-audio">上傳音檔</label>
                                     <input type="file" name="subitem4-audio" id="subitem4-audio">
                                 </div>
                             </div>
                             <div class="subitems subitem5">
-                                <div class="label-group">
-                                    <label for="subitem5-img">上傳圖檔</label>
-                                    <input type="file" name="subitem5-img" id="subitem5-img">
-                                </div>
+                                <h1>選項4：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                                 <input type="text" placeholder="請輸入文字">
                                 <div class="label-group"><label for="subitem5-audio">上傳音檔</label>
                                     <input type="file" name="subitem5-audio" id="subitem5-audio">
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="item bgi-group">
-                        <h1>背景圖</h1>
-                        <div class="subitem-group">
                             <div class="subitems subitem6">
-                                <div class="label-group">
-                                    <label for="bgc-img">背景圖片上傳</label>
-                                    <input type="file" name="bgc-img" id="bgc-img">
-                                </div>
+                                <h1>正確選項：</h1>
+                                <input type="text" placeholder="請輸入文字">
+                                <!-- <div class="label-group"><label for="subitem1-audio">上傳音檔</label>
+                                    <input type="file" name="subitem1-audio" id="subitem1-audio">
+                                </div> -->
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="img-group"><img src="./img/game.png" alt="遊戲畫面"></div> -->
             </div>
             <div class="btn-group">
                 <button type="button" class="sure-btn">確認修改</button>

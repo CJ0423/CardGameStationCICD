@@ -1,0 +1,150 @@
+// 斷點825
+$breakpoints: 825px;
+// 設手機板為480px
+$phonebreakpoints: 480px;
+
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item1 {
+    font-weight: bold;
+
+    &:hover {
+        background-color: unset;
+    }
+}
+
+body {
+    height: auto;
+}
+
+h1 {
+    & {
+        @media screen and (max-width:$phonebreakpoints) {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+main {
+    min-height: 100vh;
+
+    section.system {
+        .nav-navigation {
+            li.item5 {
+                font-weight: bold;
+
+                &:hover {
+                    background-color: unset;
+                }
+            }
+        }
+    }
+
+    section.container {
+        width: calc(100% - 200px);
+        height: 100%;
+        gap: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        gap: 1.5rem;
+
+        & {
+            @media screen and (max-width:$breakpoints) {
+                width: 100%;
+            }
+
+            @media screen and (max-width:$phonebreakpoints) {
+                padding: 0.5rem;
+            }
+
+            @media screen and (max-width:510px) {
+                gap: 5rem;
+            }
+        }
+
+        .settings {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            .item {
+                width: 100%;
+                display: flex;
+                // justify-content: space-between;
+                align-items: center;
+                margin: 1rem;
+
+                & {
+                    @media screen and (max-width:1165px) {
+                        // max-width: 700px;
+                    }
+                }
+
+                & {
+                    @media screen and (max-width:660px) {
+                        margin: .3rem;
+                    }
+                }
+
+                .item-title {
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    & {
+                        @media screen and (max-width:920px) {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+
+                .item-subitem {
+                    // max-width: 700px;
+                    min-width: 200px;
+                    width: 100%;
+                    font-size: 1.5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+
+                    form {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        margin: 10px;
+                        
+                        .enter {
+                            width: 100%;
+                            margin: 10px;
+                            border: unset;
+                            background-color: #EAEAEA;
+                            margin-left: auto;
+                        }
+
+                        .prompt-window {
+                            width: 200px;
+                            height: 150px;
+
+                            .output {
+                                position: absolute;
+                                margin: 10px;
+                                background-color: transparent;
+                                border: unset;
+                                text-align: center;
+                                pointer-events:none;
+                            }
+
+                            img {
+                                width: 200px;
+                                height: 150px;
+                            }
+                        }
+                    }
+                }        
+            }
+
+        }
+    }
+}

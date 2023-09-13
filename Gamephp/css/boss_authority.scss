@@ -4,9 +4,10 @@ $breakpoints: 825px;
 $phonebreakpoints: 480px;
 
 
-header nav .nav-menu .nav-user-navigation .ul-navigation li.item2{
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item2 {
     font-weight: bold;
-    &:hover{
+
+    &:hover {
         background-color: unset;
     }
 }

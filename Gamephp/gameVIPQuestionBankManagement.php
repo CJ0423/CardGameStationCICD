@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>知識村/題庫管理</title>
+    <title>知識村/VIP題庫編輯</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/gameQuestionBankManagement.css">
+    <link rel="stylesheet" href="./css/gameVIPQuestionBankManagement.css">
 </head>
 
 <body>
@@ -49,14 +49,14 @@
             <div class="nav-navigation">
                 <ul>
                     <li class="item1"><a href="./AccountManagement.php">科目管理</a></li>
-                    <li class="item2"><a href="#">題庫編輯</a></li>
+                    <li class="item2"><a href="./gameQuestionBankManagement.php">題庫編輯</a></li>
                     <li class="item3"><a href="./VIPAccountManagement.php">VIP科目管理</a></li>
-                    <li class="item4"><a href="./gameVIPQuestionBankManagement.php">VIP題庫編輯</a></li>
+                    <li class="item4"><a href="#">VIP題庫編輯</a></li>
                 </ul>
             </div>
         </section>
         <section class="container">
-            <h1>知識村-題庫管理</h1>
+            <h1>知識村-VIP題庫管理</h1>
             <div class="add-group">
                 <a class="add-btn">新增題目</a>
                 <a class="add-btn">匯入題目</a>
@@ -81,7 +81,7 @@
                         <td class="row6">2023/8/1 23:59</td>
                         <td class="row7">
                             <div class="edit-group">
-                                <a class="edit-btn" href="./gameKnowledgeVillageEditorRepository.php">編輯</a>
+                                <a class="edit-btn" href="./gameVIPKnowledgeVillageEditorRepository.php">編輯</a>
                                 <a class="del-btn">刪除</a>
                             </div>
                         </td>
@@ -95,7 +95,7 @@
                         <td class="row6">2023/8/1 23:59</td>
                         <td class="row7">
                             <div class="edit-group">
-                                <a class="edit-btn" href="./gameKnowledgeVillageEditorRepository.php">編輯</a>
+                                <a class="edit-btn" href="./gameVIPKnowledgeVillageEditorRepository.php">編輯</a>
                                 <a class="del-btn">刪除</a>
                             </div>
                         </td>
@@ -109,7 +109,7 @@
                         <td class="row6">2023/8/1 23:59</td>
                         <td class="row7">
                             <div class="edit-group">
-                                <a class="edit-btn" href="./gameKnowledgeVillageEditorRepository.php">編輯</a>
+                                <a class="edit-btn" href="./gameVIPKnowledgeVillageEditorRepository.php">編輯</a>
                                 <a class="del-btn">刪除</a>
                             </div>
                         </td>

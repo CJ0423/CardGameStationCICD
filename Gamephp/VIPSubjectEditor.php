@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>知識村/編輯類別</title>
+    <title>知識村/VIP編輯類別</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/SubjectEditor.css">
+    <link rel="stylesheet" href="./css/VIPSubjectEditor.css">
 </head>
 
 <body>
@@ -59,7 +59,7 @@
             <div class="settings">
                 <div class="basic">
                     <div class="item item1">
-                        <div class="item-title1">知識村-科目管理</div>
+                        <div class="item-title1">知識村-VIP科目管理</div>
                     </div>
                     <div class="item">
                         <div class="item-title">科目名稱：</div>

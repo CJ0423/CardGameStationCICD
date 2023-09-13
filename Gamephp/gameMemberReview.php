@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>知識村/題庫管理</title>
+    <title>會員管理/會員審核</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/gameQuestionBankManagement.css">
+    <link rel="stylesheet" href="./css/gameMemberReview.css">
 </head>
 
 <body>
@@ -48,69 +48,75 @@
         <section class="system">
             <div class="nav-navigation">
                 <ul>
-                    <li class="item1"><a href="./AccountManagement.php">科目管理</a></li>
-                    <li class="item2"><a href="#">題庫編輯</a></li>
-                    <li class="item3"><a href="./VIPAccountManagement.php">VIP科目管理</a></li>
-                    <li class="item4"><a href="./gameVIPQuestionBankManagement.php">VIP題庫編輯</a></li>
+                    <li class="item1"><a href="./gameMemberList.php">會員列表</a></li>
+                    <li class="item2"><a href="#">會員審核</a></li>
+                    <li class="item3"><a href="./gameNewMemberReview.php">新會員審核</a></li>
                 </ul>
             </div>
         </section>
         <section class="container">
-            <h1>知識村-題庫管理</h1>
-            <div class="add-group">
-                <a class="add-btn">新增題目</a>
-                <a class="add-btn">匯入題目</a>
-            </div>
             <div class="table-group">
                 <table>
                     <tr>
-                        <th class="row1">題目編號</th>
-                        <th class="row2">科目</th>
-                        <th class="row3">類別</th>
-                        <th class="row4">狀態</th>
-                        <th class="row5">建立時間</th>
-                        <th class="row6">修改時間</th>
-                        <th class="row7">功能</th>
+                        <th class="row1">會員姓名</th>
+                        <th class="row2">家長姓名</th>
+                        <th class="row3">連絡電話</th>
+                        <th class="row4">改暱稱前</th>
+                        <th class="row5">改暱稱後</th>
+                        <th class="row6">ID碼</th>
+                        <th class="row7">更改ID時間</th>
+                        <th class="row8">註冊時間</th>
+                        <th class="row9">登入時間</th>
+                        <th class="row10">功能</th>
                     </tr>
                     <tr>
-                        <td class="row1">A001</td>
-                        <td class="row2">英文科</td>
-                        <td class="row3">國小一年級</td>
-                        <td class="row4">✓</td>
-                        <td class="row5">2023/8/1 23:59</td>
-                        <td class="row6">2023/8/1 23:59</td>
-                        <td class="row7">
+                        <td class="row1">馬英九</td>
+                        <td class="row2">Father</td>
+                        <td class="row3">0912-345-789</td>
+                        <td class="row4">David</td>
+                        <td class="row5">May</td>
+                        <td class="row6">123456</td>
+                        <td class="row7">2023/8/1 23:59</td>
+                        <td class="row8">2023/8/1 23:59</td>
+                        <td class="row9">2023/8/1 23:59</td>
+                        <td class="row10">
                             <div class="edit-group">
-                                <a class="edit-btn" href="./gameKnowledgeVillageEditorRepository.php">編輯</a>
-                                <a class="del-btn">刪除</a>
+                                <a class="edit-btn">編輯</a>
+                                <a class="del-btn">審核</a>
                             </div>
                         </td>
                     </tr>
                     <tr>
-                        <td class="row1">A002</td>
-                        <td class="row2">國文科</td>
-                        <td class="row3">國小一年級</td>
-                        <td class="row4">✗</td>
-                        <td class="row5">2023/8/1 23:59</td>
-                        <td class="row6">2023/8/1 23:59</td>
-                        <td class="row7">
+                        <td class="row1"></td>
+                        <td class="row2"></td>
+                        <td class="row3"></td>
+                        <td class="row4"></td>
+                        <td class="row5"></td>
+                        <td class="row6"></td>
+                        <td class="row7"></td>
+                        <td class="row8">2023/8/1 23:59</td>
+                        <td class="row9">2023/8/1 23:59</td>
+                        <td class="row10">
                             <div class="edit-group">
-                                <a class="edit-btn" href="./gameKnowledgeVillageEditorRepository.php">編輯</a>
-                                <a class="del-btn">刪除</a>
+                                <!-- <a class="edit-btn">編輯</a>
+                                <a class="del-btn">審核</a> -->
                             </div>
                         </td>
                     </tr>
                     <tr>
-                        <td class="row1">A003</td>
-                        <td class="row2">VIP英文科</td>
-                        <td class="row3">國小一年級</td>
-                        <td class="row4">✓</td>
-                        <td class="row5">2023/8/1 23:59</td>
-                        <td class="row6">2023/8/1 23:59</td>
-                        <td class="row7">
+                        <td class="row1"></td>
+                        <td class="row2"></td>
+                        <td class="row3"></td>
+                        <td class="row4"></td>
+                        <td class="row5"></td>
+                        <td class="row6"></td>
+                        <td class="row7"></td>
+                        <td class="row8">2023/8/1 23:59</td>
+                        <td class="row9">2023/8/1 23:59</td>
+                        <td class="row10">
                             <div class="edit-group">
-                                <a class="edit-btn" href="./gameKnowledgeVillageEditorRepository.php">編輯</a>
-                                <a class="del-btn">刪除</a>
+                                <!-- <a class="edit-btn">編輯</a>
+                                <a class="del-btn">審核</a> -->
                             </div>
                         </td>
                     </tr>

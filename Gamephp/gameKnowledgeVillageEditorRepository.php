@@ -50,8 +50,8 @@
                 <ul>
                     <li class="item1"><a href="./AccountManagement.php">科目管理</a></li>
                     <li class="item2"><a href="./gameQuestionBankManagement.php">題庫編輯</a></li>
-                    <!-- <li class="item3"><a href="#">系統設置</a></li>
-                    <li class="item4"><a href="#">管理紀錄</a></li> -->
+                    <li class="item3"><a href="./VIPAccountManagement.php">VIP科目管理</a></li>
+                    <li class="item4"><a href="./gameVIPQuestionBankManagement.php">VIP題庫編輯</a></li>
                 </ul>
             </div>
         </section>

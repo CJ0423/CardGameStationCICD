@@ -62,77 +62,77 @@
                 </li>
                 <li>
                     <div>
-                        <h2>帳號:Tom</h2>
+                        <h1>帳號:Tom</h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             密碼:
                             <input type="password" name="password" class="input" placeholder="輸入密碼">
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>姓名:
+                        <h1>姓名:
                             <input type="text" name="password" class="input" placeholder="輸入姓名">
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             電話:
                             <input type="text" name="password" class="input" placeholder="輸入電話">
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             狀態:
                             <select name="" id="">
                                 <option>啟用</option>
                                 <option>關閉</option>
                             </select>
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             權限:
                             <select name="" id="">
                                 <option>老闆</option>
                                 <option>主管</option>
                                 <option>管理員</option>
                             </select>
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             建檔人員:Tom
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             建檔日期:2018-02-05 19:10:56
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>修改人員:Tom</h2>
+                        <h1>修改人員:Tom</h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>修改日期:2023-02-08 10:36:53</h2>
+                        <h1>修改日期:2023-02-08 10:36:53</h1>
                     </div>
                 </li>
                 <li>

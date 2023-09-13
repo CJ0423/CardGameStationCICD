@@ -49,8 +49,8 @@
             <div class="nav-navigation">
                 <ul>
                     <li class="item1"><a href="#">會員列表</a></li>
-                    <li class="item2"><a href="#">會員審核</a></li>
-                    <li class="item3"><a href="#">新會員審核</a></li>
+                    <li class="item2"><a href="./gameMemberReview.php">會員審核</a></li>
+                    <li class="item3"><a href="./gameNewMemberReview.php">新會員審核</a></li>
                     <!-- <li class="item4"><a href="#">管理紀錄</a></li> -->
                 </ul>
             </div>

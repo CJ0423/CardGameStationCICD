@@ -1,0 +1,117 @@
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item1 {
+  font-weight: bold;
+}
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item1:hover {
+  background-color: unset;
+}
+
+body {
+  height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+main {
+  min-height: 100vh;
+}
+main section.system .nav-navigation li.item5 {
+  font-weight: bold;
+}
+main section.system .nav-navigation li.item5:hover {
+  background-color: unset;
+}
+main section.container {
+  width: calc(100% - 200px);
+  height: 100%;
+  gap: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
+@media screen and (max-width: 825px) {
+  main section.container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  main section.container {
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 510px) {
+  main section.container {
+    gap: 5rem;
+  }
+}
+main section.container .settings {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+main section.container .settings .item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+@media screen and (max-width: 660px) {
+  main section.container .settings .item {
+    margin: 0.3rem;
+  }
+}
+main section.container .settings .item .item-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 920px) {
+  main section.container .settings .item .item-title {
+    font-size: 1.2rem;
+  }
+}
+main section.container .settings .item .item-subitem {
+  min-width: 200px;
+  width: 100%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+main section.container .settings .item .item-subitem form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+main section.container .settings .item .item-subitem form .enter {
+  width: 100%;
+  margin: 10px;
+  border: unset;
+  background-color: #EAEAEA;
+  margin-left: auto;
+}
+main section.container .settings .item .item-subitem form .prompt-window {
+  width: 200px;
+  height: 150px;
+}
+main section.container .settings .item .item-subitem form .prompt-window .output {
+  position: absolute;
+  margin: 10px;
+  background-color: transparent;
+  border: unset;
+  text-align: center;
+  pointer-events: none;
+}
+main section.container .settings .item .item-subitem form .prompt-window img {
+  width: 200px;
+  height: 150px;
+}/*# sourceMappingURL=gamePromptText.css.map */

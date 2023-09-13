@@ -62,108 +62,108 @@
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             遊戲設定
                             &emsp;
                             <input type="checkbox" id="game-manage" name="game-manage" /><label for="game-manage">管理</label>
                             <input type="checkbox" id="game-review" name="game-review" /><label for="game-review">審核/刪除</label>
                             <input type="checkbox" id="game-add" name="game-add" /><label for="game-add">新增/編輯</label>
                             <input type="checkbox" id="game-view" name="game-view" /><label for="game-view">檢視</label>
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             權限管理
                             &emsp;
                             <input type="checkbox" id="permissions-manage" name="permissions-manage" /><label for="permissions-manage">管理</label>
                             <input type="checkbox" id="permissions-review" name="permissions-review" /><label for="permissions-review">審核/刪除</label>
                             <input type="checkbox" id="permissions-add" name="permissions-add" /><label for="permissions-add">新增/編輯</label>
                             <input type="checkbox" id="permissions-view" name="permissions-view" /><label for="permissions-view">檢視</label>
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             會員管理
                             &emsp;
                             <input type="checkbox" id="member-manage" name="member-manage" /><label for="member-manage">管理</label>
                             <input type="checkbox" id="member-review" name="member-review" /><label for="member-review">審核/刪除</label>
                             <input type="checkbox" id="member-add" name="member-add" /><label for="member-add">新增/編輯</label>
                             <input type="checkbox" id="member-view" name="member-view" /><label for="member-view">檢視</label>
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             商店管理
                             &emsp;
                             <input type="checkbox" id="shop-manage" name="shop-manage" /><label for="shop-manage">管理</label>
                             <input type="checkbox" id="shop-review" name="shop-review" /><label for="shop-review">審核/刪除</label>
                             <input type="checkbox" id="shop-add" name="shop-add" /><label for="shop-add">新增/編輯</label>
                             <input type="checkbox" id="shop-view" name="shop-view" /><label for="shop-view">檢視</label>
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             卡牌管理
                             &emsp;
                             <input type="checkbox" id="card-manage" name="card-manage" /><label for="card-manage">管理</label>
                             <input type="checkbox" id="card-review" name="card-review" /><label for="card-review">審核/刪除</label>
                             <input type="checkbox" id="card-add" name="card-add" /><label for="card-add">新增/編輯</label>
                             <input type="checkbox" id="card-view" name="card-view" /><label for="card-view">檢視</label>
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             首頁管理
                             &emsp;
                             <input type="checkbox" id="front-manage" name="front-manage" /><label for="front-manage">管理</label>
                             <input type="checkbox" id="front-review" name="front-review" /><label for="front-review">審核/刪除</label>
                             <input type="checkbox" id="front-add" name="front-add" /><label for="front-add">新增/編輯</label>
                             <input type="checkbox" id="front-view" name="front-view" /><label for="front-view">檢視</label>
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             知識村管理
                             &zwj;
                             <input type="checkbox" id="lore-manage" name="lore-manage" /><label for="lore-manage">管理</label>
                             <input type="checkbox" id="lore-review" name="lore-review" /><label for="lore-review">審核/刪除</label>
                             <input type="checkbox" id="lore-add" name="lore-add" /><label for="lore-add">新增/編輯</label>
                             <input type="checkbox" id="lore-view" name="lore-view" /><label for="lore-view">檢視</label>
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>
+                        <h1>
                             訂單管理
                             &emsp;
                             <input type="checkbox" id="order-manage" name="manage" /><label for="order-manage">管理</label>
                             <input type="checkbox" id="order-review" name="order-review" /><label for="order-review">審核/刪除</label>
                             <input type="checkbox" id="order-add" name="order-add" /><label for="order-add">新增/編輯</label>
                             <input type="checkbox" id="order-view" name="order-view" /><label for="order-view">檢視</label>
-                        </h2>
+                        </h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>修改人員:Tom</h2>
+                        <h1>修改人員:Tom</h1>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h2>修改日期:2023-02-08 10:36:53</h2>
+                        <h1>修改日期:2023-02-08 10:36:53</h1>
                     </div>
                 </li>
                 <li>

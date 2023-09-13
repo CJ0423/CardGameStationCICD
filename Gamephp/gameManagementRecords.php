@@ -52,6 +52,7 @@
                     <li class="item2"><a href="./gameAllConfiguration.php">遊戲整體配置</a></li>
                     <li class="item3"><a href="./gameSystemSettings.php">系統設置</a></li>
                     <li class="item4"><a href="#">管理紀錄</a></li>
+                    <li class="item5"><a href="./gamePromptText.php">提示文字</a></li>
                 </ul>
             </div>
         </section>
