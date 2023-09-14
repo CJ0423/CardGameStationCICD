@@ -1,5 +1,5 @@
 <nav>
-            <div class="nav-logo"><img src="./img/logo.png" alt=""></div>
+            <div class="nav-logo"><img src="./img/messageImage_1694678508766.jpg" alt=""></div>
             <input type="checkbox" name="nav-checkbox" id="nav-checkbox">
             <label for="nav-checkbox"></label>
             <ul class="nav-menu">
