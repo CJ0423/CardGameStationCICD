@@ -81,7 +81,7 @@
                         <td class="row9">2023/8/1 23:59</td>
                         <td class="row10">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./gameMemberReviewEdit.php">編輯</a>
                                 <a class="del-btn">審核</a>
                             </div>
                         </td>

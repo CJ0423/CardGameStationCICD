@@ -14,34 +14,9 @@
 
 <body>
     <header>
-        <!-- <nav>
-            <div class="nav-logo"><img src="./img/logo.png" alt=""></div>
-            <input type="checkbox" name="nav-checkbox" id="nav-checkbox">
-            <label for="nav-checkbox"></label>
-            <ul class="nav-menu">
-                <li class="nav-user">
-                    <ul>
-                        <li class="admin">管理員：<span>May</span></li>
-                        <li class="nav-user-navigation">
-                            <h1>遊戲設定</h1>
-                            <ul class="ul-navigation">
-                                <li class="item1"><a href="#">權限管理</a></li>
-                                <li class="item2"><a href="#">會員管理</a></li>
-                                <li class="item3"><a href="#">商店管理</a></li>
-                                <li class="item4"><a href="#">卡牌管理</a></li>
-                                <li class="item5"><a href="#">首頁管理</a></li>
-                                <li class="item6"><a href="#">知識村管理</a></li>
-                                <li class="item7"><a href="#">訂單管理</a></li>
-                            </ul>
-                        </li>
-                        <li class="logout"><a href="#">登出</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav> -->
-        <?php 
+    <?php 
         require_once("./components/nav.php")
-        ?>
+    ?>
     </header>
     <main>
         <section class="mask"></section>
@@ -84,19 +59,34 @@
                         <div class="item-title">知識村音效、特效：</div>
                         <div class="item-subitem">
                             <div class="subitem subitem1">
-                                <a href="#">1.背景音樂</a>
+                                1.背景音樂
+                                <div class="label-group">
+                                    <label for="subitem1-mp3">選擇音檔</label>
+                                </div>
                             </div>
                             <div class="subitem subitem2">
-                                <a href="#">2.答對音效</a>
+                                2.答對音效
+                                <div class="label-group">
+                                    <label for="subitem2-mp3">選擇音檔</label>
+                                </div>
                             </div>
                             <div class="subitem subitem3">
-                                <a href="#">3.答對特效</a>
+                                3.答對特效
+                                <div class="label-group">
+                                    <label for="subitem3-mp3">選擇音檔</label>
+                                </div>
                             </div>
                             <div class="subitem subitem4">
-                                <a href="#">4.答錯音效</a>
+                                4.答錯音效
+                                <div class="label-group">
+                                    <label for="subitem4-mp3">選擇音檔</label>
+                                </div>
                             </div>
                             <div class="subitem subitem5">
-                                <a href="#">5.答錯特效</a>
+                                5.答錯特效
+                                <div class="label-group">
+                                    <label for="subitem5-mp3">選擇音檔</label>
+                                </div>
                             </div>
                         </div>
                     </div>

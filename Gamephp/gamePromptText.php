@@ -39,10 +39,10 @@
                         <form oninput="output.value=enter.value">
                             <textarea name="enter" id="enter" class="enter" cols="20" rows="2"></textarea>
                             
-                            <div class="prompt-window">
+                            <!-- <div class="prompt-window">
                                 <textarea name="output" id="output" class="output" cols="19" rows="4"></textarea>
                                 <img src="./img/提示跳窗 .jpg" alt="">
-                            </div>
+                            </div> -->
                         </form>
                     </div>
                     <hr>
@@ -51,10 +51,10 @@
                         <form oninput="output.value=enter.value">
                             <textarea name="enter" id="enter" class="enter" cols="20" rows="2"></textarea>
                             
-                            <div class="prompt-window">
+                            <!-- <div class="prompt-window">
                                 <textarea name="output" id="output" class="output" cols="19" rows="4"></textarea>
                                 <img src="./img/提示跳窗 .jpg" alt="">
-                            </div>
+                            </div> -->
                         </form>
                     </div>
                 </div>
@@ -64,10 +64,10 @@
                         <form oninput="output.value=enter.value">
                             <textarea name="enter" id="enter" class="enter" cols="20" rows="2"></textarea>
                             
-                            <div class="prompt-window">
+                            <!-- <div class="prompt-window">
                                 <textarea name="output" id="output" class="output" cols="19" rows="4"></textarea>
                                 <img src="./img/提示跳窗 .jpg" alt="">
-                            </div>
+                            </div> -->
                         </form>
                     </div>
                     <hr>
@@ -76,10 +76,10 @@
                         <form oninput="output.value=enter.value">
                             <textarea name="enter" id="enter" class="enter" cols="20" rows="2"></textarea>
                             
-                            <div class="prompt-window">
+                            <!-- <div class="prompt-window">
                                 <textarea name="output" id="output" class="output" cols="19" rows="4"></textarea>
                                 <img src="./img/提示跳窗 .jpg" alt="">
-                            </div>
+                            </div> -->
                         </form>
                     </div>
                 </div>
@@ -89,10 +89,10 @@
                         <form oninput="output.value=enter.value">
                             <textarea name="enter" id="enter" class="enter" cols="20" rows="2"></textarea>
                             
-                            <div class="prompt-window">
+                            <!-- <div class="prompt-window">
                                 <textarea name="output" id="output" class="output" cols="19" rows="4"></textarea>
                                 <img src="./img/提示跳窗 .jpg" alt="">
-                            </div>
+                            </div> -->
                         </form>
                     </div>
                     <hr>
@@ -101,10 +101,10 @@
                         <form oninput="output.value=enter.value">
                             <textarea name="enter" id="enter" class="enter" cols="20" rows="2"></textarea>
                             
-                            <div class="prompt-window">
+                            <!-- <div class="prompt-window">
                                 <textarea name="output" id="output" class="output" cols="19" rows="4"></textarea>
                                 <img src="./img/提示跳窗 .jpg" alt="">
-                            </div>
+                            </div> -->
                         </form>
                     </div>
                 </div>

@@ -121,7 +121,7 @@
                         <td class="row11">TOM</td>
                         <td class="row12">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./gameCardManagementEdit.php">編輯</a>
                                 <a class="del-btn">刪除</a>
                             </div>
                         </td>
@@ -140,7 +140,7 @@
                         <td class="row11">TOM</td>
                         <td class="row12">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./gameCardManagementEdit.php">編輯</a>
                                 <a class="del-btn">刪除</a>
                             </div>
                         </td>
@@ -159,7 +159,7 @@
                         <td class="row11">TOM</td>
                         <td class="row12">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./gameCardManagementEdit.php">編輯</a>
                                 <a class="del-btn">刪除</a>
                             </div>
                         </td>

@@ -1,0 +1,279 @@
+body {
+  height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item3 {
+  font-weight: bold;
+}
+header nav .nav-menu .nav-user-navigation .ul-navigation li.item3:hover {
+  background-color: unset;
+}
+
+main {
+  min-height: 100vh;
+}
+main section.system .nav-navigation li.item1 {
+  font-weight: bold;
+}
+main section.system .nav-navigation li.item1:hover {
+  background-color: unset;
+}
+main section.container {
+  width: calc(100% - 200px);
+  height: 100%;
+  gap: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  overflow: auto;
+}
+@media screen and (max-width: 825px) {
+  main section.container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  main section.container {
+    padding: 0.5rem;
+  }
+}
+main section.container .settings {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+main section.container .settings .basic {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+main section.container .settings .basic .item {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 40px;
+  margin: 5px;
+}
+main section.container .settings .basic .item input[type=text] {
+  height: 50px;
+  width: calc(100% - 310px);
+  min-width: 200px;
+  border: unset;
+  background-color: #F3F3F3;
+  text-align: center;
+}
+main section.container .settings .basic .item .add-rows {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+main section.container .settings .basic .item .add-rows input, main section.container .settings .basic .item .add-rows select {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+main section.container .settings .basic .item .add-rows select {
+  color: black;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  height: 50px;
+  min-width: 200px;
+  width: 100%;
+  padding: 0px 1rem;
+  text-align: center;
+  position: relative;
+  border: unset;
+  background-color: #F3F3F3;
+  background-image: url("../img/arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+main section.container .settings .basic .item .add-rows .add-btn, main section.container .settings .basic .item .add-rows input[type=submit] {
+  width: 200px;
+  min-width: 200px;
+  border: unset;
+  height: 50px;
+  background-color: #AEAEAE;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: background-color 0.3s linear;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.container .settings .basic .item .add-rows .add-btn:hover, main section.container .settings .basic .item .add-rows input[type=submit]:hover {
+  background-color: #9E9E9E;
+}
+main section.container .settings .basic .item .add-rows .add-btn:active, main section.container .settings .basic .item .add-rows input[type=submit]:active {
+  background-color: #DBDBDB;
+}
+main section.container .settings .basic .item .add-row2 select.select-up-down {
+  width: 80%;
+  min-width: 200px;
+}
+main section.container .settings .basic .item .item-title1 {
+  height: 100%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+  main section.container .settings .basic .item .item-title1 {
+    font-size: 1.2rem;
+  }
+}
+main section.container .settings .basic .item .item-title {
+  height: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+  main section.container .settings .basic .item .item-title {
+    font-size: 1.2rem;
+  }
+}
+main section.container .settings .basic .item .item-subitem {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+  white-space: normal;
+  gap: 0.3rem;
+}
+@media screen and (max-width: 480px) {
+  main section.container .settings .basic .item .item-subitem {
+    font-size: 1.2rem;
+  }
+}
+main section.container .settings .basic .item .item-subitem .card-number {
+  background-color: #F3F3F3;
+  margin: 10px;
+  padding: 5px;
+}
+main section.container .settings .basic .item .item-subitem .card-number form label {
+  margin: 5px;
+}
+main section.container .settings .basic .item .item-subitem form {
+  height: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+@media screen and (max-width: 480px) {
+  main section.container .settings .basic .item .item-subitem form {
+    font-size: 1.2rem;
+  }
+}
+main section.container .settings .basic .item .item-subitem form a {
+  font-size: 1.5rem;
+  margin: 0rem 0.5rem;
+}
+@media screen and (max-width: 480px) {
+  main section.container .settings .basic .item .item-subitem form a {
+    font-size: 1.2rem;
+  }
+}
+main section.container .settings .basic .item .item-subitem form input[type=number] {
+  width: 100px;
+  margin: 0px 5px;
+  border: unset;
+  background-color: #EAEAEA;
+  height: 100%;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 5px;
+}
+main section.container .settings .basic .item .item-subitem input[type=submit] {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+main section.container .settings .ticker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+}
+main section.container .settings .ticker h1 {
+  white-space: normal;
+}
+main section.container .settings .ticker .text-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.3rem;
+}
+main section.container .settings .ticker .text-group .text {
+  background-color: #EAEAEA;
+  border: unset;
+  height: 50px;
+  width: 100%;
+  max-width: 700px;
+  min-width: 280px;
+  font-size: 1.5rem;
+  text-align: start;
+}
+@media screen and (max-width: 480px) {
+  main section.container .settings .ticker .text-group .text {
+    font-size: 1.2rem;
+  }
+}
+main section.container .save {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+main section.container .save button {
+  width: 180px;
+  border: unset;
+  height: 50px;
+  background-color: #AEAEAE;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: background-color 0.3s linear;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.container .save button:hover {
+  background-color: #9E9E9E;
+}
+main section.container .save button:active {
+  background-color: #DBDBDB;
+}/*# sourceMappingURL=gameMemberListEdit.css.map */

@@ -72,7 +72,7 @@
                         <td class="row4">2023/08/01 23:59</td>
                         <td class="row5">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./MallSellingCardsEdit.php">編輯</a>
                             </div>
                         </td>
                     </tr>
@@ -83,7 +83,7 @@
                         <td class="row4">2023/08/01 23:59</td>
                         <td class="row5">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./MallSellingCardsEdit.php">編輯</a>
                             </div>
                         </td>
                     </tr>
@@ -94,7 +94,7 @@
                         <td class="row4">2023/08/01 23:59</td>
                         <td class="row5">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./MallSellingCardsEdit.php">編輯</a>
                             </div>
                         </td>
                     </tr>
@@ -105,7 +105,7 @@
                         <td class="row4">2023/08/01 23:59</td>
                         <td class="row5">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./MallSellingCardsEdit.php">編輯</a>
                             </div>
                         </td>
                     </tr>

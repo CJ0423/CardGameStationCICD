@@ -91,7 +91,7 @@
                         <td class="row8">2023/8/1 23:59</td>
                         <td class="row9">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./MallActivitiesEdit.php">編輯</a>
                                 <a class="del-btn">刪除</a>
                                 <a class="copy-btn">複製</a>
                             </div>
@@ -117,7 +117,7 @@
                         <td class="row8">2023/8/1 23:59</td>
                         <td class="row9">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./MallActivitiesEdit.php">編輯</a>
                                 <a class="del-btn">刪除</a>
                                 <a class="copy-btn">複製</a>
                             </div>
@@ -134,7 +134,7 @@
                         <td class="row8">2023/8/1 23:59</td>
                         <td class="row9">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./MallActivitiesEdit.php">編輯</a>
                                 <a class="del-btn">編輯</a>
                                 <a class="copy-btn">複製</a>
                             </div>
