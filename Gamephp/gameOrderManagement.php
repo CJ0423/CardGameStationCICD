@@ -58,7 +58,7 @@
         <section class="container">
             <h1>訂單管理</h1>
             <div class="add-group">
-                <a class="add-btn">新增科目</a>
+                <a class="add-btn">新增訂單</a>
             </div>
             <div class="table-group">
                 <table>
@@ -80,7 +80,7 @@
                         <td class="row6">2023/8/1 23:59</td>
                         <td class="row7">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./gameOrderManagementEdit.php">編輯</a>
                                 <a class="del-btn">刪除</a>
                             </div>
                         </td>
@@ -94,7 +94,7 @@
                         <td class="row6">2023/8/1 23:59</td>
                         <td class="row7">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./gameOrderManagementEdit.php">編輯</a>
                                 <a class="del-btn">刪除</a>
                             </div>
                         </td>
@@ -108,7 +108,7 @@
                         <td class="row6">2023/8/1 23:59</td>
                         <td class="row7">
                             <div class="edit-group">
-                                <a class="edit-btn">編輯</a>
+                                <a class="edit-btn" href="./gameOrderManagementEdit.php">編輯</a>
                                 <a class="del-btn">刪除</a>
                             </div>
                         </td>
