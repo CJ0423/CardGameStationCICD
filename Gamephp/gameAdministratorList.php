@@ -39,7 +39,7 @@
                 </li>
             </ul>
         </nav> -->
-        <?php 
+        <?php
         require_once("./components/nav.php")
         ?>
     </header>
@@ -58,7 +58,7 @@
         <section class="container">
             <h1>管理員列表</h1>
             <div class="add-group">
-                <a class="add-btn">新增管理帳號</a>
+                <a href="./administrator_settings.php" class="add-btn">新增管理帳號</a>
             </div>
             <div class="table-group">
                 <table>
